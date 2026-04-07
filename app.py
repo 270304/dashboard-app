@@ -192,8 +192,8 @@ def member_cards_html(members, active_id, view):
             f'<div class="mname">{m["name"]}</div>'
             f'<div class="mrole">{m["role"]}</div>'
             f'<div class="mstats">'
-            f'<span>{ch}h</span>&nbsp;work&nbsp;&nbsp;
-            f'<span>{sh}h</span>&nbsp;study&nbsp;&nbsp;
+            f'<span>{ch}h</span>&nbsp;work&nbsp;&nbsp;'
+            f'<span>{sh}h</span>&nbsp;study&nbsp;&nbsp;'
             f'<span>{dt}/{tt}</span>&nbsp;tasks'
             f'</div></div>'
         )
