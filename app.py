@@ -187,7 +187,7 @@ def member_cards_html(members, active_id, view):
         tt = len(tasks)
         active_cls = "active" if m["id"] == active_id else ""
         cards.append(
-            f'<div class="mcard {active_cls}">
+            f'<div class="mcard {active_cls}">'
             f'{avatar_html(m, 44)}'
             f'<div class="mname">{m["name"]}</div>'
             f'<div class="mrole">{m["role"]}</div>'
