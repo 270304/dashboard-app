@@ -137,7 +137,7 @@ def avatar_html(m: dict, size: int = 44) -> str:
     ini = initials(m["name"])
     return (
         f'<div class="avatar" style="width:{size}px;height:{size}px;'
-        f'background:{c["bg"]};color:{c["fg"]}">{ini}</div>"
+        f'background:{c["bg"]};color:{c["fg"]}">{ini}</div>'
     )
 
 def fmt_hms(secs: int) -> str:
