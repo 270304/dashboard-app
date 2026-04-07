@@ -4,7 +4,7 @@ Run: streamlit run app.py
 """
 import time
 from datetime import date, datetime, timedelta
-
+import plotly.graph_objects as go
 import plotly.graph_objects as go
 import streamlit as st
 
