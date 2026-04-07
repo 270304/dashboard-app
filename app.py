@@ -403,7 +403,7 @@ with tab_track:
                     with col_txt:
                         style = "text-decoration:line-through;opacity:.5" if task["done"] else ""
                         st.markdown(
-                            f'<div style="font-size:13px;padding-top:5px;{style}">
+                            f'<div style="font-size:13px;padding-top:5px;{style}">'
                             f'{task["name"]}&nbsp;<span class="badge {badge_cls}">{badge_lbl}</span></div>',
                             unsafe_allow_html=True,
                         )
